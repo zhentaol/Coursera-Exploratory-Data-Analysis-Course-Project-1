@@ -15,7 +15,7 @@ subdata$Date <- as.Date(subdata$Date, format="%d/%m/%Y")
 datetime <- paste(as.Date(subdata$Date), subdata$Time)
 subdata$Datetime <- as.POSIXct(datetime)
 
-#Plot2
+#Plot3
 #open device
 if(!file.exists('figures'))
 dir.create('figures')
